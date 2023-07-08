@@ -1,0 +1,23 @@
+nav >ul{
+    display:flex;
+}
+nav li{
+    margin-right: 30px;
+    list-style: none;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: bisque;
+}
+nav li .menu-container{
+    display: none;
+    position: absolute;
+    padding-left: 10px;
+    background-color: bisque;
+}
+nav li:hover >.menu-container{
+    display: block;
+}
