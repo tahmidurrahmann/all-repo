@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            display:block;
+            margin-bottom: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="index.html">Video</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+<section>
+    <h1>Fill up the form otherwise you can't eat pitha</h1>
+    <form>
+    <label for="name">Your Name:
+    <input type="text" name="" id="name" placeholder="Enter Name">
+</label>
+<label for="email"> Your Email:
+    <input type="email" name="" id="email" placeholder="Enter Email">
+</label>
+<label for="password"> Your Password:
+    <input type="password" name="" id="password" placeholder="Enter Password">
+</label>
+<fieldset>
+    <legend>Choose One</legend>
+    <label for="vapa">
+        <input type="radio" name="pitha" id="vapa">Vapa
+    </label>
+    <label for="patisapta">
+        <input type="radio" name="pitha" id="patisapta">Patisapta
+    </label>
+    <label for="chitoi">
+        <input type="radio" name="pitha" id="chitoi">Chitoi
+    </label>
+</fieldset>
+<fieldset>
+    <legend>Choose One or More Vorta</legend>
+    <label for="kalijira">
+        <input type="checkbox" name="" id="kalijira">Kalijira
+    </label>
+    <label for="shutki">
+        <input type="checkbox" name="" id="shutki">Shutki
+    </label>
+    <label for="morich">
+        <input type="checkbox" name="" id="morich">Morich
+    </label>
+</fieldset>
+<fieldset>
+    <legend>Textarea</legend>
+<textarea name="" id="" cols="30" rows="2"></textarea>
+</fieldset><br>
+<input type="reset" value="Reset">
+<input type="submit" value="Submit">
+</section>
+</form>
+    </main>
+    <footer></footer>
+</body>
+</html>
